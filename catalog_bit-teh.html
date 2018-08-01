@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бытовая техника - микроволновки</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a class="logo"><img src="img/logo.png" alt="Логотип"></a>
+            <div class="contacts">
+                <p>+7(499) 777-77-77<br>+7(499) 777-77-77</p>
+                <a href="#" id="go">Обратная связь</a>
+            </div>
+        </header>
+        <main class="main-content">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Прайс лист</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <a href="#" class="menu-btn">
+                    <span></span>
+                </a>
+            </nav>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(img/slider_img.png)">Slide 1</div>
+                    <div class="swiper-slide" style="background-image:url(img/slider_img.png)">Slide 2</div>
+                    <div class="swiper-slide" style="background-image:url(img/slider_img.png)">Slide 3</div>
+                    <div class="swiper-slide" style="background-image:url(img/slider_img.png)">Slide 4</div>
+                    <div class="swiper-slide" style="background-image:url(img/slider_img.png)">Slide 5</div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <ul class="breadcrumb">
+                <li><a href="#">Главная</a> /</li>
+                <li><a href="#">Каталог</a> /</li>
+                <li class="active"><a href="#">Бытовая техника</a></li>
+            </ul>
+            <div class="catalog">
+                <div class="catalog-menu">
+                    <a href="#" class="catalog-menu-btn">
+                        <span></span>
+                    </a>
+                    <ul class="catalog-menu-list">
+                        <li><a href="#">Автомобили</a></li>
+                        <li><a href="catalog_bit-teh.html">Бытовая техника</a>
+                            <ul class="catalog-menu-list_sublist">
+                                <li><a href="#">Микроволновки</a></li>
+                                <li><a href="#">Холодильники</a></li>
+                                <li><a href="#">Посудомоечные машины</a></li>
+                                <li><a href="#">Чайники</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Мобильная техника</a></li>
+                        <li><a href="#">Компьютеры</a></li>
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Недвижимость</a></li>
+                    </ul>
+                    <a class="catalog_price" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="97px" height="111px" viewBox="0 0 97 111">
+                            <image x="0" y="0" width="97" height="111" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABvCAQAAABWBWZYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAMpSURBVHja7ZohbBsxFIb/TAEHA6uiGx0KLBgomgI7FjQFFgaWBg1Ng4WBhQUF0dDQpA0VBlYFW2A0TVOmdZMH3KRdcrn77Xs+u6f3G0RKzvb7zu/s3750YPDE9Sx2AIqgCIlIEVJQCxC6Bd91YgdVqp11rAWjoAgpSBFSkCKkIEVIQYqQghQhBTEIhipzZGSfGeZkm6SqKmZYkB3OKIgMM7K928L2CuKtZn+Fr2SnlwTCJdnWDXL2ljPD9wKfhNJpSrazRJ/PGi4DM9wKpBMLsMJgbxveCECOm5rpNBEAqIUA9LEkg5gW1D4l65pSgJoIwAArT4gRDTBCuWoiuEBMvGqNUaXaCMCAvp+n9zWOvbADIrgmBf8EnRMAQgjAmAxqhTf02j4l+hVE4CdItnDmRBQBOI8CIIrAr7VV5Ro9uk9hBN5zygEII0hA7POjjSEAPVx7BH53/7lwBgiA4AOxBthvqBtGcPGwjwFWOPIACIQA5JsF7C8Jsqrwo40juNgIW4aeAAERgCPazFUbaicEuXOkz3iNX+S1z8V6LabyasXeimED4xAokfr4iStkkNydNYqQ4zsMDGYApDb5jSI8XhWs539LQxyngNDbWtbs1nFKQvisz8IIRebC7phZ+7eMa/MyfCwMawgXD+vqVQUR9gdpH1Q/D1sdiyBCWb7bHO/R7xH2lUXBhlQMoWrWsenh5mG3ywwH4UaBmfvthjKnD2G2k/Es5LPAniLZcwlXD2tgMC/ZSwgg8BZivdT1HTysgcFF6YFAbYQTx/v5DoDLsfDd5iQ2EAIfykOZOKKPQyL4ZLWBwXvHBByFQsg9AR6eiTP6+pMQCPVm+DWEhBH3RJAwC3aKnZJXC7+0lXE77hC5HEJGdvqj4vcPyFDfw3omkoQONpaNhyg69Y6I8P+4fvGGSAQB6NH2b9tu71zRKQhZ/znftBQhBSlCClKEFKQIKUgRUpAipCBFSEGdhrY4AdWCUVCEFKQIKUgRUlALEFqgDl7GDqGuWpBIXfyJHYIioIvfsUOoj9CCUVCE+GopwrfYQZXqkEFIWzvxPr1JdSfeVoyCIsRH+AdsdToZbwEgxAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwOToxMjo0OCswMDowMIG9fRkAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDk6MTI6NDgrMDA6MDDw4MWlAAAAAElFTkSuQmCC" /></svg>
+                        <p>Прайс-лист</p>
+                    </a>
+                </div>
+                <div class="catalog-product">
+                    <div class="catalog-product-item">
+                        <img src="img/nophoto.png" alt="photo_product">
+                        <p>Самый клевый чайник, который надо купить!</p>
+                        <span>1900 р.</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="28px" height="21px" viewBox="0 0 28 21">
+                            <image x="0" y="0" width="28" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAQAAAD/C0bXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAIbSURBVDjLfdRRaNVlGMfx39nOdLZNFKLdGBSOCQUtxckEtUwIoQTJkIKgSKGGF9541ZU3IexKFJEQlS6qrS5WCUFXSSUEk9AgYo1qJDFYiYs259Y5+3Sx/447m6ffc/HnfZ7/93me93lf3pIsaSRJ0puU80r2ZH1+yGB+vR5JSpHeJOnO7vRlV0ZipW3ylSX96bW62CkzRWR8JdbsC3DZ8+5h3tO1WJdZ3PG1AT3RYYc+fXZ6TPQVGd8Qt8BFsU6vnS7gL1sW08SVWmN/2+woLnjCBtHlRRWj4lztn/eW6jelPUkym0pmU4kka7I+5SRt2ZhSFpLMZS6VJJWcrc3Sy6g6ZotOsbXI/KaYBOfFGj1u4bP704gWNzFcOEo+AMP6zeOObhEvgWeXg9GPqu2Fq8NgbUfj9hXeb/GNcj24wQQuLTuU5ww446iHi/U+VerPdPFzEtMeXXUZluxjjFm3GnzcP3i3AdblHk7Ue8tJkt8ylCN5PTdSjZSyXAs5mLW5nfdTryLDNlX/p3Mr+ygX/Pc5ncMp5d9IS5qSJJVU05zmbMxD6Uk5lQdVjGjTosuT2rVqV7bJUzq1OAxera9Y38A7Jk27olMcMuauG3rEl/hRayNwL+ZN4RefW8AkvrPfCHirEXgcQ96uDeR3B8yaMlqshxuBz2DBDH7yqTlM4Zr9hnziI3sb7/GEn/3hQ4+IF4yYcHXZC1Bn/wH5rq65O6NBOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwNjozNTowNCswMDowMF+XbhoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDY6MzU6MDQrMDA6MDAuytamAAAAAElFTkSuQmCC" /></svg>
+
+                    </div>
+                    <div class="catalog-product-item">
+                        <img src="img/nophoto.png" alt="photo_product">
+                        <p>Самый клевый чайник, который надо купить!</p>
+                        <span>1900 р.</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="28px" height="21px" viewBox="0 0 28 21">
+                            <image x="0" y="0" width="28" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAQAAAD/C0bXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAIbSURBVDjLfdRRaNVlGMfx39nOdLZNFKLdGBSOCQUtxckEtUwIoQTJkIKgSKGGF9541ZU3IexKFJEQlS6qrS5WCUFXSSUEk9AgYo1qJDFYiYs259Y5+3Sx/447m6ffc/HnfZ7/93me93lf3pIsaSRJ0puU80r2ZH1+yGB+vR5JSpHeJOnO7vRlV0ZipW3ylSX96bW62CkzRWR8JdbsC3DZ8+5h3tO1WJdZ3PG1AT3RYYc+fXZ6TPQVGd8Qt8BFsU6vnS7gL1sW08SVWmN/2+woLnjCBtHlRRWj4lztn/eW6jelPUkym0pmU4kka7I+5SRt2ZhSFpLMZS6VJJWcrc3Sy6g6ZotOsbXI/KaYBOfFGj1u4bP704gWNzFcOEo+AMP6zeOObhEvgWeXg9GPqu2Fq8NgbUfj9hXeb/GNcj24wQQuLTuU5ww446iHi/U+VerPdPFzEtMeXXUZluxjjFm3GnzcP3i3AdblHk7Ue8tJkt8ylCN5PTdSjZSyXAs5mLW5nfdTryLDNlX/p3Mr+ygX/Pc5ncMp5d9IS5qSJJVU05zmbMxD6Uk5lQdVjGjTosuT2rVqV7bJUzq1OAxera9Y38A7Jk27olMcMuauG3rEl/hRayNwL+ZN4RefW8AkvrPfCHirEXgcQ96uDeR3B8yaMlqshxuBz2DBDH7yqTlM4Zr9hnziI3sb7/GEn/3hQ4+IF4yYcHXZC1Bn/wH5rq65O6NBOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwNjozNTowNCswMDowMF+XbhoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDY6MzU6MDQrMDA6MDAuytamAAAAAElFTkSuQmCC" /></svg>
+
+                    </div>
+                    <div class="catalog-product-item">
+                        <img src="img/nophoto.png" alt="photo_product">
+                        <p>Самый клевый чайник, который надо купить!</p>
+                        <span>1900 р.</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="28px" height="21px" viewBox="0 0 28 21">
+                            <image x="0" y="0" width="28" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAQAAAD/C0bXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAIbSURBVDjLfdRRaNVlGMfx39nOdLZNFKLdGBSOCQUtxckEtUwIoQTJkIKgSKGGF9541ZU3IexKFJEQlS6qrS5WCUFXSSUEk9AgYo1qJDFYiYs259Y5+3Sx/447m6ffc/HnfZ7/93me93lf3pIsaSRJ0puU80r2ZH1+yGB+vR5JSpHeJOnO7vRlV0ZipW3ylSX96bW62CkzRWR8JdbsC3DZ8+5h3tO1WJdZ3PG1AT3RYYc+fXZ6TPQVGd8Qt8BFsU6vnS7gL1sW08SVWmN/2+woLnjCBtHlRRWj4lztn/eW6jelPUkym0pmU4kka7I+5SRt2ZhSFpLMZS6VJJWcrc3Sy6g6ZotOsbXI/KaYBOfFGj1u4bP704gWNzFcOEo+AMP6zeOObhEvgWeXg9GPqu2Fq8NgbUfj9hXeb/GNcj24wQQuLTuU5ww446iHi/U+VerPdPFzEtMeXXUZluxjjFm3GnzcP3i3AdblHk7Ue8tJkt8ylCN5PTdSjZSyXAs5mLW5nfdTryLDNlX/p3Mr+ygX/Pc5ncMp5d9IS5qSJJVU05zmbMxD6Uk5lQdVjGjTosuT2rVqV7bJUzq1OAxera9Y38A7Jk27olMcMuauG3rEl/hRayNwL+ZN4RefW8AkvrPfCHirEXgcQ96uDeR3B8yaMlqshxuBz2DBDH7yqTlM4Zr9hnziI3sb7/GEn/3hQ4+IF4yYcHXZC1Bn/wH5rq65O6NBOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwNjozNTowNCswMDowMF+XbhoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDY6MzU6MDQrMDA6MDAuytamAAAAAElFTkSuQmCC" /></svg>
+
+                    </div>
+                    <div class="catalog-product-item">
+                        <img src="img/nophoto.png" alt="photo_product">
+                        <p>Самый клевый чайник, который надо купить!</p>
+                        <span>1900 р.</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="28px" height="21px" viewBox="0 0 28 21">
+                            <image x="0" y="0" width="28" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAQAAAD/C0bXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAIbSURBVDjLfdRRaNVlGMfx39nOdLZNFKLdGBSOCQUtxckEtUwIoQTJkIKgSKGGF9541ZU3IexKFJEQlS6qrS5WCUFXSSUEk9AgYo1qJDFYiYs259Y5+3Sx/447m6ffc/HnfZ7/93me93lf3pIsaSRJ0puU80r2ZH1+yGB+vR5JSpHeJOnO7vRlV0ZipW3ylSX96bW62CkzRWR8JdbsC3DZ8+5h3tO1WJdZ3PG1AT3RYYc+fXZ6TPQVGd8Qt8BFsU6vnS7gL1sW08SVWmN/2+woLnjCBtHlRRWj4lztn/eW6jelPUkym0pmU4kka7I+5SRt2ZhSFpLMZS6VJJWcrc3Sy6g6ZotOsbXI/KaYBOfFGj1u4bP704gWNzFcOEo+AMP6zeOObhEvgWeXg9GPqu2Fq8NgbUfj9hXeb/GNcj24wQQuLTuU5ww446iHi/U+VerPdPFzEtMeXXUZluxjjFm3GnzcP3i3AdblHk7Ue8tJkt8ylCN5PTdSjZSyXAs5mLW5nfdTryLDNlX/p3Mr+ygX/Pc5ncMp5d9IS5qSJJVU05zmbMxD6Uk5lQdVjGjTosuT2rVqV7bJUzq1OAxera9Y38A7Jk27olMcMuauG3rEl/hRayNwL+ZN4RefW8AkvrPfCHirEXgcQ96uDeR3B8yaMlqshxuBz2DBDH7yqTlM4Zr9hnziI3sb7/GEn/3hQ4+IF4yYcHXZC1Bn/wH5rq65O6NBOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwNjozNTowNCswMDowMF+XbhoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDY6MzU6MDQrMDA6MDAuytamAAAAAElFTkSuQmCC" /></svg>
+
+                    </div>
+                    <div class="catalog-product-item">
+                        <img src="img/nophoto.png" alt="photo_product">
+                        <p>Самый клевый чайник, который надо купить!</p>
+                        <span>1900 р.</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="28px" height="21px" viewBox="0 0 28 21">
+                            <image x="0" y="0" width="28" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAQAAAD/C0bXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAIbSURBVDjLfdRRaNVlGMfx39nOdLZNFKLdGBSOCQUtxckEtUwIoQTJkIKgSKGGF9541ZU3IexKFJEQlS6qrS5WCUFXSSUEk9AgYo1qJDFYiYs259Y5+3Sx/447m6ffc/HnfZ7/93me93lf3pIsaSRJ0puU80r2ZH1+yGB+vR5JSpHeJOnO7vRlV0ZipW3ylSX96bW62CkzRWR8JdbsC3DZ8+5h3tO1WJdZ3PG1AT3RYYc+fXZ6TPQVGd8Qt8BFsU6vnS7gL1sW08SVWmN/2+woLnjCBtHlRRWj4lztn/eW6jelPUkym0pmU4kka7I+5SRt2ZhSFpLMZS6VJJWcrc3Sy6g6ZotOsbXI/KaYBOfFGj1u4bP704gWNzFcOEo+AMP6zeOObhEvgWeXg9GPqu2Fq8NgbUfj9hXeb/GNcj24wQQuLTuU5ww446iHi/U+VerPdPFzEtMeXXUZluxjjFm3GnzcP3i3AdblHk7Ue8tJkt8ylCN5PTdSjZSyXAs5mLW5nfdTryLDNlX/p3Mr+ygX/Pc5ncMp5d9IS5qSJJVU05zmbMxD6Uk5lQdVjGjTosuT2rVqV7bJUzq1OAxera9Y38A7Jk27olMcMuauG3rEl/hRayNwL+ZN4RefW8AkvrPfCHirEXgcQ96uDeR3B8yaMlqshxuBz2DBDH7yqTlM4Zr9hnziI3sb7/GEn/3hQ4+IF4yYcHXZC1Bn/wH5rq65O6NBOAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNy0zMVQwNjozNTowNCswMDowMF+XbhoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDctMzFUMDY6MzU6MDQrMDA6MDAuytamAAAAAElFTkSuQmCC" /></svg>
+
+                    </div>
+                </div>
+                <ul class="catalog_pagination">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                </ul>
+                <div class="about_company">
+                    <p>Компания «Компания» существует более 6 лет, за это время мы принимали участие в разработке более
+                        чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш
+                        коллектив состоит из более чем 20 сотрудников работающих в Москве. </p>
+                    <p>Одним из основных направлений работ нашей компании является поисковое продвижение сайтов,
+                        на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000
+                        поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же
+                        применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел
+                        SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в
+                        нашем московском офисе.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2012-2016 ЗАО "Компания"<br>info@name.ru</p>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Прайс лист</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+                <a class="footer_logo" href="#"><img src="img/logo_footer.png" alt="Логотип Компания"><span>Разработка сайта - компания "Компания"</span></a>
+        </footer>
+    </div>
+    <div id="modal_form">
+        <span id="modal_close">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15"><defs><path id="fdyfa" d="M953 263.56l.56-.57 6.94 6.94 6.94-6.94.57.57-6.94 6.94 6.94 6.94-.57.57-6.94-6.94-6.94 6.94-.57-.57 6.94-6.94z"/></defs><g><g transform="translate(-953 -263)"><use fill="#fff" xlink:href="#fdyfa"/></g></g></svg>
+        </span>
+        <div class="modal_form__wrap">
+            <h2>Обратная связь</h2>
+            <form action="#">
+                <label for="name">Ваше имя <sup>*</sup></label><br><input type="text" id="name" placeholder="Введите имя"><br>
+                <label for="phone">Телефон <sup>*</sup></label><br><input type="tel" id="phone" placeholder="Введите номер телефона"><br>
+                <label for="email">Email <sup>*</sup></label><br><input type="email" id="email" placeholder="Введите email"><br>
+                <p>Сообщение</p>
+                <textarea name="text" id="text"></textarea>
+                <button id="btn_modal">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

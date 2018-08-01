@@ -399,7 +399,6 @@
     border: 1px solid #000000;
     position: absolute;
     top: -29px;
-    left: center;
 }
 
 .about_company p {
@@ -837,7 +836,7 @@ input[type="email"]::-ms-input-placeholder {
         display: none;
     }
 
-    .catalog-menu. .catalog_price svg image {
+    .catalog-menu .catalog_price svg image {
         width: 40px;
     }
 
